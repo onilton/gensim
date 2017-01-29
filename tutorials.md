@@ -1,18 +1,17 @@
-
-###Tutorials
+###(Tutorials)
 
 #####Quick-start
 * [Getting Started with gensim](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/gensim%20Quick%20Start.ipynb)
 
 #####Text to Vectors
-* We first need to transform text to vectors
+We first need to transform text to vectors
 * [String to vectors tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/Corpora_and_Vector_Spaces.ipynb)
     * Create a dictionary first that maps words to ids
     * Transform the text into vectors through ```dictionary.doc2bow(texts)```
 * [Corpus streaming tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/Corpora_and_Vector_Spaces.ipynb) (For very large corpuses)
 
 #####Models and Transformation
-* Models (e.g. LsiModel, Word2Vec) are built / trained from a corpus
+Models (e.g. LsiModel, Word2Vec) are built / trained from a corpus
 * [Transformation interface tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/Topics_and_Transformations.ipynb)
 
 #####TF-IDF (Model)
@@ -20,7 +19,7 @@
 * [tf-idf scores are normalized](http://stackoverflow.com/questions/9470479/how-is-tf-idf-implemented-in-gensim-tool-in-python) (sum of squares of scores = 1)
 
 #####Phrases (Model)
-* Detects words that belong in a phrase, useful for models like Word2Vec ("new", "york" -> "new york")
+Detects words that belong in a phrase, useful for models like Word2Vec ("new", "york" -> "new york")
 * [Docs](https://radimrehurek.com/gensim/models/phrases.html), [Source](https://github.com/piskvorky/gensim/blob/develop/gensim/models/phrases.py) (uses bigram detectors underneath)
 * [Phrases example on How I Met Your Mother](http://www.markhneedham.com/blog/2015/02/12/pythongensim-creating-bigrams-over-how-i-met-your-mother-transcripts/)
 
@@ -44,11 +43,11 @@
 * [LDA: pre-processing and training tips](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/lda_training_tips.ipynb)
 
 #####Query Similarities
-* Tool to get the most similar documents for LDA, LSI
+Tool to get the most similar documents for LDA, LSI
 * [Similarity queries tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/Similarity_Queries.ipynb)
 
 #####Dynamic Topic Modeling
-* Model evolution of topics through time
+Model evolution of topics through time
 * [Easy intro to DTM. Evolution of Voldemort topic through the 7 Harry Potter books.](http://rare-technologies.com/understanding-and-coding-dynamic-topic-models/)
 * [Dynamic Topic Modeling and Dynamic Influence Model Tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/dtm_example.ipynb)
 * [Python Dynamic Topic Modelling Theory and Tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/ldaseqmodel.ipynb)
@@ -74,22 +73,22 @@
 * [Similarity queries using Annoy with word2vec and doc2vec](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/annoytutorial.ipynb)
 
 #####Word Movers Distance
-* Tool to get the most similar documents for word2vec
+Tool to get the most similar documents for word2vec
 * [Word Movers Distance for Yelp Reviews tutorial](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/WMD_tutorial.ipynb)
 
 #####Deep Inverse Regression
-* Document Classification using Bayesian Inversion and several word2vec models(one for each class)
+Document Classification using Bayesian Inversion and several word2vec models(one for each class)
 * [Deep Inverse Regression with Yelp Reviews](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/deepir.ipynb)
 
 
 ####Other techniques
 
 #####Summarization
-* Extract most important keywords and sentences from the text
+Extract most important keywords and sentences from the text
 * [Tutorial on TextRank summarisation](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/summarization_tutorial.ipynb)
 
 #####Overviews
-* Tutorial showing API for document classification with various techniques: TF-IDF, word2vec averaging, Deep IR, Word Movers Distance and doc2vec
+Tutorial showing API for document classification with various techniques: TF-IDF, word2vec averaging, Deep IR, Word Movers Distance and doc2vec
 * [Movie plots by genre](https://github.com/RaRe-Technologies/movie-plots-by-genre)
 
 
